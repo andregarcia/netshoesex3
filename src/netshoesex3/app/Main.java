@@ -6,6 +6,7 @@ import netshoesex3.app.stream.StreamImpl;
 public class Main {
 
 	
+	// recebe como primeiro parametro a string utilizada na stream
 	public static void main(String[] s){
 		char c = FirstChar.firstChar(new StreamImpl(s[0].toCharArray()));
 		if(c=='\0') System.out.println("Não foi encontrado caractere que não se repete!");
